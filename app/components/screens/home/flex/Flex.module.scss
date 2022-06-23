@@ -1,0 +1,98 @@
+.flex {
+    background-color: #FDF0E9;
+    padding-top: 83px;
+    padding-bottom: 185px;
+}
+.flex__buttons {
+    display: flex;
+    width: 563px;
+    justify-content: space-between;
+    margin: 0 auto 75px;
+}
+.flex__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 79px;
+    align-items: center;
+    justify-content: center;
+}
+.flex__box {
+    position: absolute;
+    z-index: 100;
+    bottom: 60px;
+    left: 41px;
+    display: flex;
+    flex-direction: column;
+}
+.flex__type {
+    padding: 13px 20px 9px 16px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #391400;
+    margin-bottom: 26px;
+    width: max-content;
+}
+.flex__title {
+    color: #fff;
+    font-size: 40px;
+}
+.flex__image {
+    border-radius: 6px;
+}
+.flex__button {
+    display: block; 
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 18px 58px 20px 46px;   
+    font-size: 14px;
+    color: #391400;
+    box-shadow: -2px 4px 4px rgba(243, 231, 225, 0.63), 2px -2px 4px rgba(243, 231, 225, 0.63), 2px 4px 4px rgba(243, 231, 225, 0.25), -2px -2px 4px rgba(243, 231, 225, 0.63);
+    border: none;
+    border-radius: 6px;
+}
+.flex__selection {
+    display: none;
+}
+
+@media (max-width: 1040px) {
+    .flex {
+        padding-top: 31px;
+        padding-bottom: 224px;
+    }
+    .flex__buttons {
+        display: none;
+    }
+    .flex__selection {
+        display: block;
+        margin-bottom: 47px;
+    }
+    .flex__select {
+        width: 330px;
+        padding: 17px 16px 19px;
+        margin: 0 auto;
+        display: block;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); 
+        background-repeat: no-repeat, repeat;
+        background-position: right .7em top 50%, 0 0;
+        background-size: .65em auto, 100%; 
+        border: 1px solid #f3d1bf;
+        border-radius: 5px;
+        color: rgba(57,20,0,0.6392156862745098 );
+        background-color: #fff;
+
+        option {
+            background-color: #fff;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+    .flex__cards {
+        margin-bottom: 47px;
+    }
+}

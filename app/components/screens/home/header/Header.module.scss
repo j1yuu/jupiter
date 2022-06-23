@@ -1,0 +1,81 @@
+.header {
+    background-color: #28293E;
+    padding-top: 19px;
+    padding-bottom: 65px;
+    box-shadow: 0px 1px 2px #90E149;
+}
+.header__upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 118px;
+}
+.header__logo {
+    display: flex;
+    align-items:center;
+}
+.header__company {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 17px;
+    margin-left: 19px;
+}
+.header__nav {
+    width: 531px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28.3px;
+
+    a {
+        font-size: 16px;
+        color: #CDCED3;
+    }
+}
+.header__button {
+    padding: 17px 38px 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header__title {
+    font-size: 72px;    
+    color: #fff;
+    text-align: center;
+    padding-bottom: 53px;
+}
+.header__about {
+    width: 544px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #CDCED3; 
+    line-height: 200%;
+}
+
+@media (max-width: 1040px) {
+    .header {
+        padding-top: 9px;
+        padding-bottom: 78px;
+    }
+    .header__upper {
+        justify-content: center;
+        margin-bottom: 93px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .header__title {
+        font-size: 54px;
+        padding-bottom: 36px;
+    }
+    .header__about {
+        width: 289px;
+        // text-
+    }
+}
